@@ -1,2 +1,9 @@
 language: java
 jdk: openjdk7
+deploy:
+  provider: heroku
+  api_key:
+    secure: B5r8TOySpegWvRmh5HlaPn6XlPMGBniyeGA7a9CXH3wG42R0Wj3muLVMHLT84eiTzou9g4Na8KXJ/LY4XHtdcTtv2ruNmKAx/HvAyKeKNBBPLOEGPL2eTSisfoS7mdho46rQwNQu+1TugTzOrIB0qZpBl5hSEOSNqI0ZlZT7juw=
+  app: staging-aslaug
+  on:
+    repo: Beerclub/helloworld
